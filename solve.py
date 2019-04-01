@@ -18,7 +18,7 @@ def sort(option):
     }
     data.sort(key = methods[option])
 
-def print_all:
+def print_all():
     print_n(len(data))
         
 def print_n(n):
@@ -32,9 +32,10 @@ def print_n(n):
 if __name__ == '__main__':
     
     funcs = {
-        'read'  : read,
-        'sort'  : sort,
-        'print' : print_all
+        'read'      : read,
+        'sort'      : sort,
+        'print'     : print_all,
+        'print_n'   : print_n
     }
     
     while True:
