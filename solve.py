@@ -22,6 +22,7 @@ def print_all():
     print_n(len(data))
         
 def print_n(n):
+    n = int(n)
     for d in data[:n]:
         print(d[0])
         print('\tTime:',d[1][1:])
